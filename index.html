@@ -21,16 +21,6 @@
                 }
             }
         }
-        module.exports = {
-                theme: {
-                    extend: {
-                        backgroundImage: {
-                            'bg-blue-img': "url('./assets/images/Image.png')",
-                            // 'footer-texture': "url('/img/footer-texture.png')",
-                        }
-                    }
-                }
-            }
     </script>
 </head>
 
@@ -140,7 +130,8 @@
                                             fill="#EB4335" />
                                     </svg>
                                 </a>
-                                <p class="font-lato text-sm font-normal leading-5 cursor-pointer text-[#62656D] ml-3">Google</p>
+                                <p class="font-lato text-sm font-normal leading-5 cursor-pointer text-[#62656D] ml-3">
+                                    Google</p>
                             </div>
                             <div class="flex border border-[#E4EAF7] rounded-md py-2.5 px-4 w-full mt-7">
                                 <a href="https://www.facebook.com/" target="_blank">
@@ -161,35 +152,42 @@
                                         </defs>
                                     </svg>
                                 </a>
-                                <p class="font-lato text-sm font-normal leading-5 cursor-pointer text-[#62656D] ml-3">Facebook</p>
+                                <p class="font-lato text-sm font-normal leading-5 cursor-pointer text-[#62656D] ml-3">
+                                    Facebook</p>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="w-full lg:w-1/2 px-3 flex items-center justify-center relative max-xl:col-after">
+                <img src="./assets/images/Image.png" alt=""
+                    class="absolute right-0 bg-no-repeat bg-cover h-full w-1/2 lg:absolute bottom-0 z-[1] max-lg:w-full max-lg:top-[90%]">
+                <div class="w-full lg:w-1/2 px-3 flex items-center justify-center relative max-lg:col-after">
                     <div class="z-[1] relative max-sm:py-9">
-                        <img src="./assets/images/Ellipse-8.png" alt="blue-circle" class="w-full hidden sm:block">
-                        <img src="./assets/images/diamond.png" alt="comb-group"
-                            class="absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2 hidden sm:block">
-                        <img src="./assets/images/line.png" alt=""
-                            class="sm:absolute top-[17%] right-[25%] -translate-x-1/2 hidden sm:block">
-                        <img class="sm:absolute top-[25.5%] right-[-22%] -translate-x-1/2 hidden sm:block"
-                            src="./assets/images/group.png" alt="">
+                        <img src="./assets/images/Ellipse-8.png" alt="ellipse"
+                            class="w-full hidden sm:block max-lg:mt-10">
+                        <img src="./assets/images/diamond.png" alt="diamond"
+                            class="absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2 hidden sm:block max-lg:mt-5">
+                        <img src="./assets/images/line.png" alt="line"
+                            class="sm:absolute top-[17%] right-[25%] -translate-x-1/2 hidden sm:block max-lg:mt-10">
+                        <img class="sm:absolute top-[25.5%] right-[-22%] -translate-x-1/2 hidden sm:block max-lg:mt-9"
+                            src="./assets/images/group.png" alt="group">
                         <div class="max-sm:flex max-sm:gap-3 max-sm:flex-col">
-                            <img src="./assets/images/group.png" alt="comb-group" class=" sm:hidden max-h-[380px]">
+                            <img src="./assets/images/group.png" alt="group"
+                                class="sm:hidden max-sm:mt-20 max-h-[380px]">
                             <div class="flex justify-between gap-3">
-                                <a href="" class="icon-box sm:absolute bottom-0 right-[85%] sm:top-[64px] z-[1]"><img
+                                <a href=""
+                                    class="icon-box sm:absolute bottom-0 right-[85%] sm:top-[64px] z-[1] max-lg:mt-[44px] max-sm:mt-0"><img
                                         src="./assets/images/facebook-logo-svg.svg" alt="facebook icon">
                                 </a>
-                                <a href="" class="icon-box sm:absolute bottom-0 right-[85%] sm:top-[160px] z-[1]">
+                                <a href=""
+                                    class="icon-box sm:absolute bottom-0 right-[85%] sm:top-[160px] z-[1] max-lg:mt-[50px] max-sm:mt-0">
                                     <img src="./assets/images/in-logo-svg.svg" alt="linkedin icon">
                                 </a>
                                 <a href=""
-                                    class="icon-box sm:absolute bottom-0 top-[55%] right-[85%] sm:bottom-[160px] z-[1]">
+                                    class="icon-box sm:absolute bottom-0 top-[55%] right-[85%] sm:bottom-[160px] z-[1] max-lg:mt-[25px] max-sm:mt-0">
                                     <img src="./assets/images/instagram-logo-svg.svg" alt="instagram icon">
                                 </a>
                                 <a href=""
-                                    class="icon-box sm:absolute bottom-0 top-[75%] right-[85%] sm:bottom-[70px] z-[1]">
+                                    class="icon-box sm:absolute bottom-0 top-[75%] right-[85%] sm:bottom-[70px] z-[1] max-lg:mt-[12px] max-sm:mt-0">
                                     <img src="./assets/images/twitter-logo-svg.svg " alt="twitter icon">
                                 </a>
                             </div>
